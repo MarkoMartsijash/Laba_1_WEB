@@ -1,0 +1,55 @@
+body{
+    font-family: 'Comfortaa', 'Yellowtail', cursive;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: white;
+    text-shadow: 1px 1px 8px black;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.textP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: beige;
+    font-size: 20px;
+    height: 30px;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 100px;
+    margin: 10px;
+}
+
+.div-time-panel{
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+
+.time-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 40px;
+    background-color: beige;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+
