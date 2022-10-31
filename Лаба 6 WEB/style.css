@@ -1,0 +1,81 @@
+body{
+    font-family: 'Comfortaa', 'Yellowtail', cursive;
+}
+
+.form-absolute{
+    display: flex;
+    justify-content: center;
+}
+.window-reg{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    width: 280px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form input{
+    width: 200px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-family: 'Comfortaa', 'Yellowtail', cursive;
+}
+.head-text{
+    margin-bottom: 30px;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.centr{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+    margin: 10px 0;
+    font-family: 'Comfortaa', 'Yellowtail', cursive;
+}
+
+
+.lbl-inpt{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.eye-img{
+    position: absolute;
+    top: 99.5px;
+    left: 170px;
+    width: 20px;
+    height: 20px;   
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    opacity: 0.3;
+}
+.eye-img.active{
+    opacity: 1;
+}
+
+.lbl-inpt input{
+    margin-bottom: 20px;
+}
+.lbl-inpt label{
+    margin-bottom: 5px;
+}
